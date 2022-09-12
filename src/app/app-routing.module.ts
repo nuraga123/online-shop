@@ -4,6 +4,7 @@ import { BaseComponent } from './components/base/base.component';
 import { BasketComponent } from './components/basket/basket.component';
 import { ProductDetailsComponent } from './components/product-details/product-details.component';
 import { ProductsComponent } from './components/products/products.component';
+import { ProductResolverResolver } from './service/product-resolver.resolver';
 
 const routes: Routes = [
   {
@@ -15,15 +16,18 @@ const routes: Routes = [
     component: ProductsComponent
   },
   {
-    path: 'products:/id',
+    path: 'product/:id',
+    resolve: { data: ProductResolverResolver },
     component: ProductDetailsComponent
+
   },
   {
     path: 'basket',
     component: BasketComponent
   },
 
-  { path: '**',
+  {
+    path: '**',
     redirectTo: '',
     component: BaseComponent
   },

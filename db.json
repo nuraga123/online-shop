@@ -1,0 +1,45 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Melaz N30",
+      "price": 3,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2021,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      }
+    },
+
+    {
+      "id": 2,
+      "title": "Melaz 2",
+      "price": 20,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2022,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      }
+    },
+
+    {
+      "id": 3,
+      "title": "Melaz 3",
+      "price": 300,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2023,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      }
+    }
+  ]
+}
