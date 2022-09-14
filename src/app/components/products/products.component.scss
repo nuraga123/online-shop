@@ -1,23 +1,22 @@
 .container {
   margin: 0 auto;
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-start;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
 }
 
 .example-card {
+  width: 230px;
   background-color: white;
   color: black;
   border: 1px solid black;
-  margin: 10px;
+  margin: 10px auto;
   padding: 15px;
   text-align: center;
 }
 
 .mat-card-image {
-  margin: 0;
-  width: 200px;
+  margin: 0 auto;
+  width: 130px;
 }
 
 .button {
@@ -28,4 +27,34 @@
 .buttons {
   display: flex;
   justify-content: space-between;
+}
+
+.mat-dialog-container {
+  padding: 10px;
+}
+
+.addProduct__button {
+  border-top: 1px solid black;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+}
+
+@media only screen and (max-width: 780px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 520px) {
+  .container {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .example-spacer {
+    flex: none;
+  }
 }

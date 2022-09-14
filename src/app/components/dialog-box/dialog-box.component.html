@@ -1,1 +1,63 @@
-<p>dialog-box works!</p>
+<form [formGroup]="myForm" (ngSubmit)="onSubmit" class="example-form">
+  <h3 class="form__title">
+    Объявление товара
+  </h3>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      title
+    </mat-label>
+    <input matInput formControlName="title">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      price
+    </mat-label>
+    <input matInput formControlName="price">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      year
+    </mat-label>
+    <input matInput formControlName="year">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      chip
+    </mat-label>
+    <input matInput formControlName="chip">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      ssd
+    </mat-label>
+    <input matInput formControlName="ssd">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      memory
+    </mat-label>
+    <input matInput formControlName="memory">
+  </mat-form-field>
+
+  <mat-form-field class="example-full-width" appearance="fill">
+    <mat-label>
+      display
+    </mat-label>
+    <input matInput formControlName="display">
+  </mat-form-field>
+  <div class="dialogs__button">
+    <button mat-flat-button class="button__dialog" type="submit" (click)="onSubmit()">
+      {{isNew ? "Добавить Товар" : "Обновить"}}
+    </button>
+
+    <button mat-flat-button class="button__dialog" type="button" (click)="onNoClick()">
+      Отмена
+    </button>
+  </div>
+</form>
