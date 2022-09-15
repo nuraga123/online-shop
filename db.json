@@ -38,6 +38,19 @@
         "memory": "16 gb",
         "display": "ISP"
       }
+    },
+    {
+      "id": 4,
+      "title": "dfgd",
+      "price": "",
+      "year": "",
+      "image": "/assets/images/melaz__n30.jpg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      }
     }
   ]
 }
