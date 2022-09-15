@@ -15,10 +15,10 @@
     },
     {
       "id": 2,
-      "title": "Melaz 2",
-      "price": 20,
+      "title": "Melaz N30",
+      "price": 3,
       "image": "/assets/images/melaz__n30.jpg",
-      "year": 2022,
+      "year": 2021,
       "configure": {
         "chip": "M1",
         "SSD": "240 GB",
@@ -28,10 +28,10 @@
     },
     {
       "id": 3,
-      "title": "Melaz 3",
-      "price": 300,
+      "title": "Melaz N30",
+      "price": 3,
       "image": "/assets/images/melaz__n30.jpg",
-      "year": 2023,
+      "year": 2021,
       "configure": {
         "chip": "M1",
         "SSD": "240 GB",
@@ -41,7 +41,7 @@
     },
     {
       "id": 4,
-      "title": "dfgd",
+      "title": "sdad",
       "price": "",
       "year": "",
       "image": "/assets/images/melaz__n30.jpg",
@@ -51,6 +51,77 @@
         "memory": "",
         "display": ""
       }
+    },
+    {
+      "id": 5,
+      "title": "nuraga 22",
+      "price": "",
+      "year": "",
+      "image": "/assets/images/melaz__n30.jpg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      }
+    }
+  ],
+  "basket": [
+    {
+      "id": 3,
+      "title": "Melaz N30",
+      "price": 3,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2021,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      },
+      "quantity": 1
+    },
+    {
+      "id": 1,
+      "title": "Melaz N30",
+      "price": 3,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2021,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      },
+      "quantity": 1
+    },
+    {
+      "id": 2,
+      "title": "Melaz N30",
+      "price": 3,
+      "image": "/assets/images/melaz__n30.jpg",
+      "year": 2021,
+      "configure": {
+        "chip": "M1",
+        "SSD": "240 GB",
+        "memory": "16 gb",
+        "display": "ISP"
+      },
+      "quantity": 4
+    },
+    {
+      "id": 5,
+      "title": "nuraga 22",
+      "price": "",
+      "year": "",
+      "image": "/assets/images/melaz__n30.jpg",
+      "configure": {
+        "chip": "",
+        "ssd": "",
+        "memory": "",
+        "display": ""
+      },
+      "quantity": 1
     }
   ]
 }
